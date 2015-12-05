@@ -1,0 +1,21 @@
+{
+  "name": "book-getting-started-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello-world": "babel-node ./src/hello-world/index.js",
+    "test": "mocha '**/*.tests.js' --compilers js:babel-register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.3.13",
+    "babel-core": "^6.3.13",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "code": "^2.0.1",
+    "mocha": "^2.3.4"
+  }
+}
